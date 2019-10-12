@@ -6,6 +6,9 @@
 
 // You can delete this file if you're not using it
 
+// Import Global styles
+import "./src/styles/main.scss"
+
 // Display a message when a service worker updates
 export const onServiceWorkerUpdateReady = () => {
   const answer = window.confirm(
