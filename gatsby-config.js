@@ -129,7 +129,7 @@ module.exports = {
         repositoryName: `${process.env.PRISMIC_REPO}`,
 
         // An API access token to your prismic.io repository. This is required.
-        accessToken: `${process.env.PRISMIC_API_KEY}`,
+        accessToken: `${process.env.PRISMIC_KEY}`,
 
         // Set a link resolver function used to process links in your content.
         linkResolver: () => prismicLinkResolver,
@@ -146,18 +146,13 @@ module.exports = {
         // Provide an object of Prismic custom type JSON schemas to load into
         schemas: {
           // Your custom types mapped to schemas
-          // project: require("./src/schemas/project.json"),
-          // category: require("./src/schemas/category.json"),
-          // homepage: require("./src/schemas/homepage.json"),
-          // menu: require("./src/schemas/menu.json"),
           // page: require("./src/schemas/page.json"),
-          // post: require("./src/schemas/post.json"),
         },
 
         // Set a default language when fetching documents. The default value is
         // '*' which will fetch all languages.
         // See: https://prismic.io/docs/javascript/query-the-api/query-by-language
-        lang: "*",
+        // lang: "*",
 
         // Set a function to determine if images are downloaded locally and made
         // available for gatsby-transformer-sharp for use with gatsby-image.
@@ -165,9 +160,9 @@ module.exports = {
           // Return true to normalize the image or false to skip.
           return true
         },
-        // Set the prefix for the filename where type paths for your schemas are
-        // stored.
-        typePathsFilenamePrefix: "prismic-typepaths---zlutfi",
+        // // Set the prefix for the filename where type paths for your schemas are
+        // // stored.
+        // typePathsFilenamePrefix: "prismic-typepaths---zlutfi",
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
