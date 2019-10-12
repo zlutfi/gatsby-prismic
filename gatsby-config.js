@@ -146,7 +146,7 @@ module.exports = {
         // Provide an object of Prismic custom type JSON schemas to load into
         schemas: {
           // Your custom types mapped to schemas
-          // page: require("./src/schemas/page.json"),
+          page: require("./src/schemas/page.json"),
         },
 
         // Set a default language when fetching documents. The default value is
