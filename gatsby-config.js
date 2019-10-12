@@ -147,6 +147,7 @@ module.exports = {
         schemas: {
           // Your custom types mapped to schemas
           page: require("./src/schemas/page.json"),
+          menu: require("./src/schemas/menu.json"),
         },
 
         // Set a default language when fetching documents. The default value is

@@ -16,14 +16,14 @@ const linkResolver = doc => {
   // if (doc.type === "category") {
   //   return `/projects/category/${doc.uid}`
   // }
-  // // URL for a page type
-  // if (doc.type === "page") {
-  //   return `/${doc.uid}`
-  // }
-  // // URL for a static page type
-  // if (doc.type === "static_page") {
-  //   return `/${doc.uid}`
-  // }
+  // URL for a page type
+  if (doc.type === "page") {
+    return `/${doc.uid}`
+  }
+  // URL for a menu type
+  if (doc.type === "menu") {
+    return `/${doc.uid}`
+  }
 
   // Backup for all other types
   return "/"

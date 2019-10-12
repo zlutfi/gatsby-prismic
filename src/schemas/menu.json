@@ -1,0 +1,44 @@
+{
+  "Main": {
+    "menu_title": {
+      "type": "StructuredText",
+      "config": {
+        "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+        "label": "Menu Title",
+        "placeholder": "Menu Title"
+      }
+    },
+    "menu_items": {
+      "type": "Group",
+      "config": {
+        "fields": {
+          "menu_link_title": {
+            "type": "StructuredText",
+            "config": {
+              "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+              "label": "Menu Link Title",
+              "placeholder": "Link Title"
+            }
+          },
+          "menu_link": {
+            "type": "Link",
+            "config": {
+              "allowTargetBlank": true,
+              "label": "Menu Link"
+            }
+          }
+        },
+        "label": "Menu Items"
+      }
+    }
+  },
+  "Meta": {
+    "uid": {
+      "type": "UID",
+      "config": {
+        "label": "Slug",
+        "placeholder": "Slug"
+      }
+    }
+  }
+}
