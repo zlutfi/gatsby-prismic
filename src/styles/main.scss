@@ -8,5 +8,42 @@
   flex-grow: 1;
   overflow: hidden;
 }
+
+// Navbar Styles
+nav {
+  margin-bottom: 1.45rem;
+  background-color: rebeccapurple;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  background-color: rebeccapurple;
+  width: 960px;
+  margin: 0 auto;
+}
+
+nav li {
+  float: left;
+  margin-bottom: 0;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav li a:hover {
+  background-color: #ffaf1e;
+}
+
+nav .active {
+  background-color: #111;
+}
+
 // Import the default Gatsby layout stylesheet
 @import "./layout.css";
