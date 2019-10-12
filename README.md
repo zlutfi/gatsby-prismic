@@ -16,3 +16,4 @@ I built this template as a means to quickly create a Gatsby website that uses Pr
 - gatsby-plugin-google-analytics
 - gatsby-plugin-sass
 - gatsby-plugin-robots-txt
+- gatsby-plugin-sitemap
