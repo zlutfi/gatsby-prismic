@@ -10,10 +10,11 @@ I built this template as a means to quickly create a Gatsby website that uses Pr
 
 ## Plugins Used
 
-- gatsby-source-prismic
-- patsby-plugin-netlify
+- gatsby-source-prismic(v3)
+- gatsby-plugin-netlify
 - gatsby-plugin-netlify-cache
 - gatsby-plugin-google-analytics
 - gatsby-plugin-sass
 - gatsby-plugin-robots-txt
 - gatsby-plugin-sitemap
+- Formik
