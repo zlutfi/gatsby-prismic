@@ -49,6 +49,7 @@ export const pageQuery = graphql`
       tags
       data {
         title {
+          text
           html
         }
         content {
