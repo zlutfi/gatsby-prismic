@@ -9,6 +9,16 @@
   overflow: hidden;
 }
 
+// Header Styles
+header {
+  background-color: rebeccapurple;
+  padding: 1.45rem 1.0875rem;
+}
+header .inner {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
 // Navbar Styles
 nav {
   margin-bottom: 1.45rem;
@@ -43,6 +53,14 @@ nav li a:hover {
 
 nav .active {
   background-color: #111;
+}
+
+// Footer Styles
+
+footer {
+  background-color: #eee;
+  padding: 20px;
+  text-align: center;
 }
 
 // Import the default Gatsby layout stylesheet
