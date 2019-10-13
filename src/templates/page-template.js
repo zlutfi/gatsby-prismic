@@ -13,7 +13,7 @@ const Page = ({ data }) => {
         <SEO title={page.title.text} />
         <section>
           {/* Page heading */}
-          <header
+          <h1
             dangerouslySetInnerHTML={{
               __html: page.title.html,
             }}
