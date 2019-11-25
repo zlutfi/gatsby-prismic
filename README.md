@@ -21,6 +21,13 @@ I built this template as a means to quickly create a Gatsby website that uses Pr
 - Netlify Configuration Included
 - Includes HTML Serializer and Linkresolver functions
 
+## Install
+
+1. Clone this repo and run 'npm install'
+2. Rename **template.env** and configure with your own Prismic repo name and API key.
+3. Copy contents of **page-template.js** in the templates folder to your custom page type in Prismic.
+3. To start run 'gatsby develop'
+
 ## Plugins Used
 
 - gatsby-source-prismic(v3)
