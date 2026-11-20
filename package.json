@@ -19,7 +19,7 @@
     "gatsby-plugin-sharp": "2.2.29",
     "gatsby-plugin-sitemap": "2.2.17",
     "gatsby-source-filesystem": "2.1.31",
-    "gatsby-source-prismic": "3.0.0-beta.11",
+    "gatsby-source-prismic": "3.4.0",
     "gatsby-transformer-sharp": "2.2.21",
     "node-sass": "4.12.0",
     "prismic-dom": "2.1.0",
